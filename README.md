@@ -29,8 +29,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You will need to install the PDI (Pentaho Data Integration) software, version 8.2
-* [Pentaho Data Integration 8.2](https://sourceforge.net/projects/pentaho/files/latest/download?aliId=137249511)
+You will need to install the next software por testing porposal 
+* [Pentaho Data Integration 8.2](https://sourceforge.net/projects/pentaho/files/latest/download?aliId=137249511) 
+* [kafka_2.11-2.2.0](https://kafka.apache.org/downloads) 
+* [zookeeper-3.4.14](https://zookeeper.apache.org/releases.html)
+
+All the test were executed on Microsoft Windows 10.
+
 
 ```
 Give examples
