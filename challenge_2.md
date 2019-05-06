@@ -33,6 +33,7 @@ error - this folder contains the error output of the transformation process
 In the files directory you can find the transformation and jobs generated for testing.
 
 test_8.ktr - this transformation process execute the Kafka consumer
+
 test_9.ktr - this transformation process get records from streaming and save the data
 
 ### Prerequisites
