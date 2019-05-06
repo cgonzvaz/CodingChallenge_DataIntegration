@@ -61,4 +61,4 @@ All the process errors will be save on errors folder
 All the source files are configured with the path ${Internal.Transformation.Filename.Directory}.
 This path refers where the ktr files are. In this case the ktr file are in our {instalation_directory}/files
 
-If you need more detail about the jobs and transformation uses, please refer [technical_oveview]( 
+If you need more detail about the jobs and transformation uses, please refer [technical_overview](technical_overview.pdf)
