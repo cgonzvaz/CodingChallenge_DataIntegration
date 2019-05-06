@@ -15,32 +15,26 @@ Bonus points:
 
 ## Getting Started
 
-Once you have installed your PDI tool, you have to unzip the [file]
-### Prerequisites
+Once you have installed your PDI tool, you have to unzip the [file](files.7z) in your install directory.
+For exameple in my test we have our install directory on my desktop
 
-What things you need to install the software and how to install them
+cd 'C:\Users\cgonza\Desktop\data-integration'
+unzip files.7z
 
-```
-Give examples
-```
+This will create a directory named files in your install directory
 
-### Installing
+cd files
 
-A step by step series of examples that tell you how to get a development env running
+In the files directory you will find the next directories:
+For the Challenge#1 only need the following folders:
 
-Say what the step will be
+* csv - this folder saves the csv output of the transformation
+* json - this folder contains the input json of the transformation
+* xml - this folder contains the output xml of the transformation process
+* error - this folder contains the error output of the transformation process
 
-```
-Give the example
-```
+In the files directory you can find the transformation and jobs generated for testing. 
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
