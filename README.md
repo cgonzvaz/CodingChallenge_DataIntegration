@@ -26,7 +26,7 @@ All of them should be able to respond to an eventual big message load.
 
 ## Getting Started
 
-All the testing was executed on lapton on Windows 10. 
+All the testing was executed on laptop on Windows 10. 
 
 ### Prerequisites
 
