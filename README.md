@@ -50,7 +50,7 @@ If you need help for installing software tools please follown the next links
 ### Technical Review
 
 Technical analysis and propsed solutions
-* [ETL Technical design](Technical_Review.pdf)
+* [ETL Technical design](technical_overview.pdf)
 
 ## How it works - Testing 
 
