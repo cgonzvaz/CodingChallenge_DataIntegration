@@ -5,7 +5,7 @@ The Challenge is divided in two parts:
 
 Part I: The Basics
 The eCommerce company owning the app would like to:
-2) Reliably capture the incoming message stream where there could be large
+1) Reliably capture the incoming message stream where there could be large
 fluctuations in the number of messages being received at a given time (eg sales on
 Cyber Monday)
 2) Queue the data for further processing
