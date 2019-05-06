@@ -36,11 +36,6 @@ You will need to install the next software por testing porposal
 
 All the test were executed on Microsoft Windows 10.
 
-
-```
-Give examples
-```
-
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
