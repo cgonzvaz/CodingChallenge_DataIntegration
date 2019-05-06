@@ -43,14 +43,7 @@ If you need help for installing software tools please follown the next links
 * [Kafka] (https://kafka.apache.org/documentation/)
 * [Zookeeper] (https://zookeeper.apache.org/documentation.html)
 
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+[Instalation Problems](InstalationProblems.md)
 
 ## Running the tests
 
