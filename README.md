@@ -38,9 +38,8 @@ All the test were executed on Microsoft Windows 10.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+You can follow the next documentation for installing Pentaho
+* [Pentaho Data Integration Installation] (https://help.pentaho.com/Documentation/5.3/0F0/0J0/030) 
 
 ```
 Give the example
