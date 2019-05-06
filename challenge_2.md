@@ -13,7 +13,8 @@ All of them should be able to respond to an eventual big message load.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+If you have executed Challenge#1 you don´t have to anything at this point. You have all the folder directory created.
+If you don´t please check the "Getting Started" part in the [Challenge#1](challenge_1.md)
 
 ### Prerequisites
 
