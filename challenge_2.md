@@ -13,10 +13,10 @@ All of them should be able to respond to an eventual big message load.
 
 ## Getting Started
 
-If you have executed Challenge#1 you don´t have to anything at this point. You have all the folder directory created.
+If you have executed Challenge#1 you don´t have to do anything at this point. You have all the folder directory created.
 If you don´t follow the next instructions:
 
-Once you have installed your PDI tool, you have to unzip the file in your install directory. For exameple in my test we have our install directory on my desktop
+Once you have installed your PDI tool, you have to unzip the file in your install directory. For example in my test we have our install directory on my desktop
 
 cd 'C:\Users\cgonza\Desktop\data-integration' unzip files.7z
 
@@ -27,22 +27,44 @@ cd files
 In the files directory you will find the next directories: For the Challenge#1 only need the following folders:
 
 csv - this folder saves the csv output of the transformation
+
 json - this folder contains the input json of the transformation
+
 xml - this folder contains the output xml of the transformation process
+
 error - this folder contains the error output of the transformation process
+
+
 In the files directory you can find the transformation and jobs generated for testing.
 
 test_8.ktr - this transformation process execute the Kafka consumer
 
 test_9.ktr - this transformation process get records from streaming and save the data
 
+
 ### Prerequisites
 
-What things you need to install the software and how to install them
+In this Challenge is necessary to create an API for ingest data near real-time. For this purpose we will use Kafka. 
+We have installed kafka and Zookeeper on Windows for testing this part.
 
-```
-Give examples
-```
+You need to install **java** jdk for executing Zookeeper and Kafka and set the %JAVA_HOME% and include the %JAVA_HOME%/bin into the %PATH%
+
+then you have to execute **Zookeeper** 
+On Windows it is necesarry to change in {ZOOKEEPER_HOME}/conf/zoo_sample.cfg 
+
+dataDir=/tmp/zookeeper 
+
+to you directory
+
+dataDir={ZOOKEEPER_HOME}/data
+
+Then you can execute Zookeeper:
+
+**%ZOOKEEPER_HOME%/bin/zkServer.cmd**
+
+ **binding to port 0.0.0.0/0.0.0.0:2181**
+ 
+ Wi will open por 2181 on localhost
 
 ### Installing
 
