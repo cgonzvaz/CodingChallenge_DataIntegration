@@ -50,62 +50,15 @@ Execute PDI from your directory installation
 
 **C:\Users\cgonza\Desktop\data-integration>Spoon.bat**
 
-Then you have to open the test_3.ktr.kjb and run.
+**Then you have to open the test_3.ktr.kjb and execute run**
+
 This job will create 2 files:
 * a csv file with all the transformation in the csv folder - data.csv
-* a xml file with all the xml estructure data in the xml folder - 
+* a xml file with all the xml estructure data in the xml folder - json_structure.xml
 
+All the process errors will be save on errors folder
 
+All the source files are configured with the path ${Internal.Transformation.Filename.Directory}.
+This path refers where the ktr files are. In this case the ktr file are in our {instalation_directory}/files
 
-
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+If you need more detail about the jobs and transformation uses, please refer [technical_oveview]( 
