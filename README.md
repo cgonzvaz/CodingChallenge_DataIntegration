@@ -39,16 +39,16 @@ All the test were executed on Microsoft Windows 10.
 ### Installing
 
 If you need help for installing software tools please follown the next links
-* [Pentaho Data Integration Installation] (https://help.pentaho.com/Documentation/8.2)
-* [Kafka] (https://kafka.apache.org/documentation/)
-* [Zookeeper] (https://zookeeper.apache.org/documentation.html)
+* [Pentaho Data Integration Installation](https://help.pentaho.com/Documentation/8.2)
+* [Kafka](https://kafka.apache.org/documentation/)
+* [Zookeeper](https://zookeeper.apache.org/documentation.html)
 
 [Instalation Problems](InstalationProblems.md)
 
 ### Analisys and LogBook
 
 Technical analysis and propsed solutions
-[ETL Technical design](Technical Analysis.pdf)
+* [ETL Technical design](Technical Analysis.pdf)
 
 ## Running the tests
 
