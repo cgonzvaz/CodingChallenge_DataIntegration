@@ -38,8 +38,8 @@ All the test were executed on Microsoft Windows 10.
 
 ### Installing
 
-You can follow the next documentation for installing Pentaho
-* [Pentaho Data Integration Installation] (https://help.pentaho.com/Documentation/5.3/0F0/0J0/030) 
+If you need help for installing PDI please follown the vendor documentation
+* [Pentaho Data Integration Installation] (https://help.pentaho.com/Documentation/8.2)
 
 ```
 Give the example
