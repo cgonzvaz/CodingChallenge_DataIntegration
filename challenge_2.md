@@ -1,6 +1,15 @@
-# Project Title
+# Challenge #2 Bonus Points
 
-One Paragraph of project description goes here
+Main Points:
+
+You will replace the batch based architecture to go real time in data capture. For that you need to:
+
+• Implement an API capable of recieving JSON objects and send those objets to three different queues. One to parse data into
+tabular data load it in a DB engine, another one to store the same data in csv format, and a third one to log messages in text files.
+All of them should be able to respond to an eventual big message load.
+
+• Incorrect values should be handled sepparately to go to an error file.
+
 
 ## Getting Started
 
