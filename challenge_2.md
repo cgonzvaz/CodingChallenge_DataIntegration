@@ -37,6 +37,7 @@ error - this folder contains the error output of the transformation process
 
 In the files directory you can find the transformation and jobs generated for testing.
 
+
 test_8.ktr - this transformation process execute the Kafka consumer
 
 test_9.ktr - this transformation process get records from streaming and save the data
@@ -65,6 +66,22 @@ Then you can execute Zookeeper:
  **binding to port 0.0.0.0/0.0.0.0:2181**
  
  Wi will open por 2181 on localhost
+ 
+ 
+ Then we have to execute **Kafka** por creating a producer that can generate the streaming info. 
+ 
+ You have to define the logs folder on your configuration
+ 
+ In %KAFKA_HOME/config/server.properties we have to change the parameter log.dirs to your logs folder.
+ For example:
+ 
+ **logs.dir={KAFKA_HOMEM}/logs**
+ 
+ Now, you can execute kafka:
+ 
+ **%KAFKA_HOME%\bin\windows\zookeeper-server-start.bat zookeper.properties**
+ 
+ **Kafka starts on localhost, port 9092**
 
 ### Installing
 
