@@ -22,7 +22,6 @@ Cyber Monday)
 4) Forward the data to tables in a data warehouse for analysis and reporting teams
 
 
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -33,17 +32,17 @@ You will need to install the next software por testing porposal
 * [Pentaho Data Integration 8.2](https://sourceforge.net/projects/pentaho/files/latest/download?aliId=137249511) 
 * [kafka_2.11-2.2.0](https://kafka.apache.org/downloads) 
 * [zookeeper-3.4.14](https://zookeeper.apache.org/releases.html)
+* [jdk1.8.0_211] (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 All the test were executed on Microsoft Windows 10.
 
 ### Installing
 
-If you need help for installing PDI please follown the vendor documentation
+If you need help for installing software tools please follown the next links
 * [Pentaho Data Integration Installation] (https://help.pentaho.com/Documentation/8.2)
+* [Kafka] (https://kafka.apache.org/documentation/)
+* [Zookeeper] (https://zookeeper.apache.org/documentation.html)
 
-```
-Give the example
-```
 
 And repeat
 
