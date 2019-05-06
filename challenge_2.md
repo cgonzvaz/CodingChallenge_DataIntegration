@@ -14,7 +14,26 @@ All of them should be able to respond to an eventual big message load.
 ## Getting Started
 
 If you have executed Challenge#1 you don´t have to anything at this point. You have all the folder directory created.
-If you don´t please check the "Getting Started" part in the [Challenge#1](challenge_1.md)
+If you don´t follow the next instructions:
+
+Once you have installed your PDI tool, you have to unzip the file in your install directory. For exameple in my test we have our install directory on my desktop
+
+cd 'C:\Users\cgonza\Desktop\data-integration' unzip files.7z
+
+This will create a directory named files in your install directory
+
+cd files
+
+In the files directory you will find the next directories: For the Challenge#1 only need the following folders:
+
+csv - this folder saves the csv output of the transformation
+json - this folder contains the input json of the transformation
+xml - this folder contains the output xml of the transformation process
+error - this folder contains the error output of the transformation process
+In the files directory you can find the transformation and jobs generated for testing.
+
+test_8.ktr - this transformation process execute the Kafka consumer
+test_9.ktr - this transformation process get records from streaming and save the data
 
 ### Prerequisites
 
