@@ -63,95 +63,45 @@ Then you can execute Zookeeper:
 
 **%ZOOKEEPER_HOME%/bin/zkServer.cmd**
 
- **binding to port 0.0.0.0/0.0.0.0:2181**
+**binding to port 0.0.0.0/0.0.0.0:2181**
  
- Wi will open por 2181 on localhost
+Wi will open por 2181 on localhost
  
  
- Then we have to execute **Kafka** por creating a producer that can generate the streaming info. 
+Then we have to execute **Kafka** por creating a producer that can generate the streaming info. 
  
- You have to define the logs folder on your configuration
- 
- In %KAFKA_HOME/config/server.properties we have to change the parameter log.dirs to your logs folder.
- For example:
- 
- **logs.dir={KAFKA_HOMEM}/logs**
- 
- Now, you can execute kafka:
- 
- **%KAFKA_HOME%\bin\windows\zookeeper-server-start.bat zookeper.properties**
- 
- **Kafka starts on localhost, port 9092**
+You have to define the logs folder on your configuration
 
-### Installing
+In %KAFKA_HOME/config/server.properties we have to change the parameter log.dirs to your logs folder.
+For example:
+ 
+**logs.dir={KAFKA_HOMEM}/logs**
+ 
+Now, you can execute kafka:
+ 
+**%KAFKA_HOME%\bin\windows\zookeeper-server-start.bat zookeper.properties**
+ 
+**Kafka starts on localhost, port 9092**
+ 
+Now we have to create a topic
+ 
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic **test**
+ 
+and creating a producer to ingest the streaming json:
+ 
+**kafka-console-producer.bat --broker-list localhost:9092 --topic test < {pentaho_directory_instalation}\files\json\json_real_time.json**
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Once we have the producers working, we have to executing the consumer in our PDI tool.
+So, open your pdi tool, and open and execute the **test8.ktr** transformation.
+You have to execute the transformation while the producers are working. 
 
-### Break down into end to end tests
+The test8.ktr call the transformation test9.ktr for receiving data and transforming it. 
 
-Explain what these tests test and why
+If you need more detail from the process please check [technical_overview](technical_overview)
 
-```
-Give an example
-```
+**--> at this time the queue division is pending**
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
