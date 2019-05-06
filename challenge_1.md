@@ -2,7 +2,7 @@
 
 Main Points:
 
-* Define the structure of the XML document.
+• Define the structure of the XML document.
 • Create a batch process using ETL tool (PDI community edition) to parse the data and store it in tabular CSV files in a normalized
 form.
 • You need to source and destination data files and the PDI package.
@@ -35,10 +35,23 @@ For the Challenge#1 only need the following folders:
 
 In the files directory you can find the transformation and jobs generated for testing. 
 
+* test_3.ktr - this transformation process contains all the transformations for the Challenge#1
+* test_3.ktr.kjb - this job call the transformation before, send email and control errors.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Execute PDI from your directory installation
+
+**C:\Users\cgonza\Desktop\data-integration>Spoon.bat**
+
+Then you have to open the test_3.ktr.kjb and run.
+This job will create 2 files:
+* a csv file with all the transformation in the csv folder - data.csv
+* a xml file with all the xml estructure data in the xml folder - 
+
+
+
+
 
 ### Break down into end to end tests
 
