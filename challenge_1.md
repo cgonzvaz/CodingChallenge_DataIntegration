@@ -1,11 +1,21 @@
-# Project Title
+# Challenge #1
 
-One Paragraph of project description goes here
+Main Points:
+
+* Define the structure of the XML document.
+• Create a batch process using ETL tool (PDI community edition) to parse the data and store it in tabular CSV files in a normalized
+form.
+• You need to source and destination data files and the PDI package.
+• The ETL job must handle failure rolling back the changes and send a success/failure notification to an email address.
+• A second ETL must move normalized data to some datawarehouse csv files using a schema optimized for reporting.
+
+Bonus points:
+• You are free to add more attributes to the JSON source to build a richer table structure.
+• ETL could process correct records and derive incorrect ones to an error file
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+Once you have installed your PDI tool, you have to unzip the [file]
 ### Prerequisites
 
 What things you need to install the software and how to install them
