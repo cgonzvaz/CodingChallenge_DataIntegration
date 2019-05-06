@@ -1,6 +1,27 @@
-# Project Title
+# Coding Challenge Data Integration
 
-One Paragraph of project description goes here
+This repository contains development code related to the Adidas challenge about Data Integration.
+The Challenge is divided in two parts:
+
+Part I: The Basics
+The eCommerce company owning the app would like to:
+2) Reliably capture the incoming message stream where there could be large
+fluctuations in the number of messages being received at a given time (eg sales on
+Cyber Monday)
+2) Queue the data for further processing
+3) Parse the data to tabular structures
+4) Forward the data to tables in a data warehouse for analysis and reporting teams
+
+Part II: Bonus Points
+The eCommerce company owning the app would like to:
+2) Reliably capture the incoming message stream where there could be large
+fluctuations in the number of messages being received at a given time (eg sales on
+Cyber Monday)
+2) Queue the data for further processing
+3) Parse the data to tabular structures
+4) Forward the data to tables in a data warehouse for analysis and reporting teams
+
+
 
 ## Getting Started
 
