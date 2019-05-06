@@ -26,21 +26,21 @@ cd files
 
 In the files directory you will find the next directories: For the Challenge#1 only need the following folders:
 
-csv - this folder saves the csv output of the transformation
+**csv** - this folder saves the csv output of the transformation
 
-json - this folder contains the input json of the transformation
+**json** - this folder contains the input json of the transformation
 
-xml - this folder contains the output xml of the transformation process
+**xml** - this folder contains the output xml of the transformation process
 
-error - this folder contains the error output of the transformation process
+**error** - this folder contains the error output of the transformation process
 
 
 In the files directory you can find the transformation and jobs generated for testing.
 
 
-test_8.ktr - this transformation process execute the Kafka consumer
+**test_8.ktr** - this transformation process execute the Kafka consumer
 
-test_9.ktr - this transformation process get records from streaming and save the data
+**test_9.ktr** - this transformation process get records from streaming and save the data
 
 
 ### Prerequisites
