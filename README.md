@@ -50,9 +50,10 @@ If you need help for installing software tools please follown the next links
 Technical analysis and propsed solutions
 * [ETL Technical design](Technical_Review.pdf)
 
-## Running the tests
+## How it works - Testing 
 
-Explain how to run the automated tests for this system
+* [Challenge#1](challenge_1.md)
+* [Challenge#2](challenge_2.md)
 
 ### Break down into end to end tests
 
