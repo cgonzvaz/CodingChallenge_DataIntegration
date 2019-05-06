@@ -3,10 +3,14 @@
 Main Points:
 
 • Define the structure of the XML document.
+
 • Create a batch process using ETL tool (PDI community edition) to parse the data and store it in tabular CSV files in a normalized
 form.
+
 • You need to source and destination data files and the PDI package.
+
 • The ETL job must handle failure rolling back the changes and send a success/failure notification to an email address.
+
 • A second ETL must move normalized data to some datawarehouse csv files using a schema optimized for reporting.
 
 Bonus points:
