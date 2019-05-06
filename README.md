@@ -29,7 +29,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You will need to install the PDI (Pentaho Data Integration) software, version 8.2
+* [Pentaho Data Integration 8.2](https://sourceforge.net/projects/pentaho/files/latest/download?aliId=137249511)
 
 ```
 Give examples
