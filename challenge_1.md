@@ -14,7 +14,9 @@ form.
 • A second ETL must move normalized data to some datawarehouse csv files using a schema optimized for reporting.
 
 Bonus points:
+
 • You are free to add more attributes to the JSON source to build a richer table structure.
+
 • ETL could process correct records and derive incorrect ones to an error file
 
 ## Getting Started
