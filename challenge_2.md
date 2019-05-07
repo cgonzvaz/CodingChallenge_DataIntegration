@@ -85,9 +85,12 @@ Now, you can execute kafka:
  
 Now we have to create a topic
  
-kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic **test**
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 3 --topic **test**
+
+You can define the data copies you can send -- ** replication-factor**, in this case 1, and the partitions.
+In this case we will use 3 partitions, each one for create a queue.
  
-and creating a producer to ingest the streaming json:
+The we will create a producer to ingest the streaming json:
  
 **kafka-console-producer.bat --broker-list localhost:9092 --topic test < {pentaho_directory_instalation}\files\json\json_real_time.json**
 
